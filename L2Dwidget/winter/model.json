@@ -1,0 +1,58 @@
+{
+	"version":"Sample 1.0.0",
+	"model":"model.moc",
+  "pose"        : "pose.json",
+
+	"textures":[
+		"model.1024/texture_00.png",
+                "model.1024/texture_01.png",
+                "model.1024/texture_02.png"
+	],
+"expressions" : [
+    {
+      "file" : "exp/mtn_ex_001.exp.json",
+      "name" : "mtn_ex_001.exp.json"
+    },
+    {
+      "file" : "exp/mtn_ex_002.exp.json",
+      "name" : "mtn_ex_002.exp.json"
+    },
+    {
+      "file" : "exp/mtn_ex_003.exp.json",
+      "name" : "mtn_ex_003.exp.json"
+    },
+    {
+      "file" : "exp/mtn_ex_004.exp.json",
+      "name" : "mtn_ex_004.exp.json"
+    }
+
+  ],
+
+	"motions":{
+		"idle":[
+			{"file":"mtn/motion_000.mtn"}
+		],
+                "tap_body":[
+			{"file":"mtn/motion_001.mtn",
+                        "expression":"mtn_ex_001.exp.json"
+},
+{
+                          "file":"mtn/motion_002.mtn",
+                        "expression":"mtn_ex_002.exp.json"
+},
+{
+                          "file":"mtn/motion_003.mtn",
+                        "expression":"mtn_ex_003.exp.json"
+},
+{
+                          "file":"mtn/motion_004.mtn",
+                        "expression":"mtn_ex_004.exp.json"
+}
+		]
+	},
+	"physics":"physics.json",
+	
+		"hit_areas":[
+			{"name":"body","id":"D_REF.BODY"}
+			]
+}
