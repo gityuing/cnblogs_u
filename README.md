@@ -37,37 +37,37 @@
 
 <script src="https://cdn.jsdelivr.net/gh/gityuing/cnblogs_u@main/L2Dwidget/L2Dwidget.min.js"></script>
 <script>
-		// 可选: midnight springorautumn summer winter evening assets
-		let pluginModelPath = 'springorautumn/';
-		let display1={//大小位置什么的自己慢慢调就是了
-			position: "right",//定位
-			width: 130,//宽度
-			height: 210,//高度
-			hOffset: 10,//左右
-			vOffset: 10//上下
-		};
-		let display2={//大小位置什么的自己慢慢调就是了
-			position: "right",//定位
-			width: 130,//宽度
-			height: 210,//高度
-			hOffset: 10,//左右
-			vOffset: -40//上下
-		};
-		L2Dwidget.init({
-			pluginRootPath: "https://cdn.jsdelivr.net/gh/gityuing/cnblogs_u@main/L2Dwidget/",//资源root路径
-			pluginJsPath: "",//js相对root的路径
-			pluginModelPath: pluginModelPath,//模型相对root的路径
-			model: {
-				scale: 2,
-				jsonPath: "https://cdn.jsdelivr.net/gh/gityuing/cnblogs_u@main/L2Dwidget/"+pluginModelPath+"model.json"
-			},
-			mobile: {
-				show: !1
-			},
-			display: display2,
-			tagMode: !1,
-			debug: !1,
-			log: !1
-		});
-	</script>
+    // 可选: midnight springorautumn summer winter evening assets gf chitose epsilon2_1
+    let pluginModelPath = 'springorautumn/';
+    let display1={//大小位置什么的自己慢慢调就是了
+        position: "right",//定位
+        width: 130,//宽度
+        height: 210,//高度
+        hOffset: 10,//左右
+        vOffset: 10//上下
+    };
+    let display2={//大小位置什么的自己慢慢调就是了
+        position: "right",//定位
+        width: 130,//宽度
+        height: 210,//高度
+        hOffset: 10,//左右
+        vOffset: -40//上下
+    };
+    L2Dwidget.init({
+        pluginRootPath: "https://cdn.jsdelivr.net/gh/gityuing/cnblogs_u@main/L2Dwidget/",//资源root路径
+        pluginJsPath: "",//js相对root的路径
+        pluginModelPath: pluginModelPath,//模型相对root的路径
+        model: {
+            scale: 2,
+            jsonPath: "https://cdn.jsdelivr.net/gh/gityuing/cnblogs_u@main/L2Dwidget/"+pluginModelPath+"model.json"
+        },
+        mobile: {
+            show: !1
+        },
+        display: display2,
+        tagMode: !1,
+        debug: !1,
+        log: !1
+    });
+</script>
 ```
