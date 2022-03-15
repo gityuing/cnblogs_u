@@ -37,7 +37,10 @@
 
 <script src="https://cdn.jsdelivr.net/gh/gityuing/cnblogs_u@main/L2Dwidget/L2Dwidget.min.js"></script>
 <script>
-    // 可选: midnight springorautumn summer winter evening assets gf chitose epsilon2_1
+    // 可选: midnight springorautumn summer winter evening 01 chitose epsilon2_1
+    // haru_03  nietzsche  koharu  haru_02  nito  .DS_Store  z16  izumi  hijiki  ni_j  
+    // unitychan  tororo  haru_01  nico  miku  nipsilon  shizuku  hibiki  tsumiki  wanko
+
     let pluginModelPath = 'springorautumn/';
     let display1={//大小位置什么的自己慢慢调就是了
         position: "right",//定位
