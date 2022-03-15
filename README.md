@@ -37,11 +37,6 @@
 
 <script src="https://cdn.jsdelivr.net/gh/gityuing/cnblogs_u@main/L2Dwidget/L2Dwidget.min.js"></script>
 <script>
-    // 可选: midnight springorautumn summer winter evening 01 chitose epsilon2_1
-    // haru_03  nietzsche  koharu  haru_02  nito  .DS_Store  z16  izumi  hijiki  ni_j  
-    // unitychan  tororo  haru_01  nico  miku  nipsilon  shizuku  hibiki  tsumiki  wanko
-
-    let pluginModelPath = 'springorautumn/';
     let display1={//大小位置什么的自己慢慢调就是了
         position: "right",//定位
         width: 130,//宽度
@@ -56,13 +51,19 @@
         hOffset: 10,//左右
         vOffset: -40//上下
     };
+    // 可选: midnight springorautumn summer winter evening 01  epsilon2_1 shizuku haru_02 z16 haru_01 hibiki tsumiki （漫画女）
+    // haru_03 (可爱男)  koharu（可爱女）   izumi（女）  hijiki（黑猫）  wanko（狗子） chitose（漫画男）
+    //   tororo（白猫） miku
+
+    let pluginModelPath = 'hijiki/';
+    
     L2Dwidget.init({
         pluginRootPath: "https://cdn.jsdelivr.net/gh/gityuing/cnblogs_u@main/L2Dwidget/",//资源root路径
-        pluginJsPath: "",//js相对root的路径
-        pluginModelPath: pluginModelPath,//模型相对root的路径
+        pluginJsPath: "js",//js相对root的路径
+        pluginModelPath: 'tororo',//模型相对root的路径
         model: {
             scale: 2,
-            jsonPath: "https://cdn.jsdelivr.net/gh/gityuing/cnblogs_u@main/L2Dwidget/"+pluginModelPath+"model.json"
+            jsonPath: "https://cdn.jsdelivr.net/gh/gityuing/cnblogs_u@main/L2Dwidget/assets/tororo/model.json"
         },
         mobile: {
             show: !1
